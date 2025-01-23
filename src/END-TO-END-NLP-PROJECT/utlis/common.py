@@ -31,3 +31,4 @@ def create_directories(path_to_directories: list,verbose=True):
         if verbose:
             logger.info(f"crested directory at: {path}")
             
+  
