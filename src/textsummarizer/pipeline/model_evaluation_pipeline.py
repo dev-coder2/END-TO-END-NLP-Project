@@ -1,6 +1,6 @@
-from src.textSummarizer.config.configuration import ConfigurationManager
-from src.textSummarizer.components.model_evaluation import ModelEvaluation
-from src.textSummarizer.logging import logger
+from src.textsummarizer.config.configuration import ConfigurationManager
+from src.textsummarizer.components.model_evaluation import ModelEvaluation
+from src.textsummarizer.logging import logger
 
 class ModelEvaluationTrainingPipeline:
     def __init__(self):
