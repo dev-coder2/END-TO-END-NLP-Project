@@ -1,0 +1,875 @@
+[2025-01-24 10:26:52,604: INFO: main:  Stage Name: Data Ingestion  <<<<<<<<<< start running >>>>>>>>>>]
+[2025-01-24 10:26:52,604: ERROR: main: DataIngestionPipeline.initiate_data_ingestion() missing 1 required positional argument: 'self']
+Traceback (most recent call last):
+  File "F:\MLops udemy\END-TO-END-NLP-Project\main.py", line 9, in <module>
+    data_ingestion.initiate_data_ingestion()
+TypeError: DataIngestionPipeline.initiate_data_ingestion() missing 1 required positional argument: 'self'
+[2025-01-24 10:29:29,883: INFO: main:  Stage Name: Data Ingestion  <<<<<<<<<< initiated >>>>>>>>>>]
+[2025-01-24 10:29:29,883: ERROR: main: name 'self' is not defined]
+Traceback (most recent call last):
+  File "F:\MLops udemy\END-TO-END-NLP-Project\main.py", line 9, in <module>
+    data_ingestion.initiate_data_ingestion(self)
+NameError: name 'self' is not defined
+[2025-01-24 10:29:36,522: INFO: main:  Stage Name: Data Ingestion  <<<<<<<<<< initiated >>>>>>>>>>]
+[2025-01-24 10:29:36,523: ERROR: main: DataIngestionPipeline.initiate_data_ingestion() missing 1 required positional argument: 'self']
+Traceback (most recent call last):
+  File "F:\MLops udemy\END-TO-END-NLP-Project\main.py", line 9, in <module>
+    data_ingestion.initiate_data_ingestion()
+TypeError: DataIngestionPipeline.initiate_data_ingestion() missing 1 required positional argument: 'self'
+[2025-01-24 10:30:28,412: INFO: main:  Stage Name: Data Ingestion  <<<<<<<<<< initiated >>>>>>>>>>]
+[2025-01-24 10:30:28,413: ERROR: main: DataIngestionPipeline.initiate_data_ingestion() missing 1 required positional argument: 'self']
+Traceback (most recent call last):
+  File "F:\MLops udemy\END-TO-END-NLP-Project\main.py", line 9, in <module>
+    data_ingestion.initiate_data_ingestion()
+TypeError: DataIngestionPipeline.initiate_data_ingestion() missing 1 required positional argument: 'self'
+[2025-01-24 10:30:40,875: INFO: main:  Stage Name: Data Ingestion  <<<<<<<<<< initiated >>>>>>>>>>]
+[2025-01-24 10:30:40,875: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-01-24 10:30:40,974: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-01-24 10:30:40,977: ERROR: main: "'ConfigBox' object has no attribute 'root'"]
+Traceback (most recent call last):
+  File "box\box.py", line 503, in box.box.Box.__getitem__
+KeyError: 'root'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "box\box.py", line 536, in box.box.Box.__getattr__
+  File "box\box.py", line 524, in box.box.Box.__getitem__
+box.exceptions.BoxKeyError: "'root'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "box\box.py", line 538, in box.box.Box.__getattr__
+AttributeError: 'ConfigBox' object has no attribute 'root'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "box\config_box.py", line 28, in box.config_box.ConfigBox.__getattr__
+  File "box\box.py", line 552, in box.box.Box.__getattr__
+box.exceptions.BoxKeyError: "'ConfigBox' object has no attribute 'root'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "box\box.py", line 503, in box.box.Box.__getitem__
+KeyError: 'root'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "box\box.py", line 536, in box.box.Box.__getattr__
+  File "box\box.py", line 524, in box.box.Box.__getitem__
+box.exceptions.BoxKeyError: "'root'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "box\box.py", line 538, in box.box.Box.__getattr__
+AttributeError: 'ConfigBox' object has no attribute 'root'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "F:\MLops udemy\END-TO-END-NLP-Project\main.py", line 9, in <module>
+    data_ingestion.initiate_data_ingestion()
+  File "F:\MLops udemy\END-TO-END-NLP-Project\src\textsummarizer\pipeline\data_ingestion_pipeline.py", line 13, in initiate_data_ingestion
+    config = ConfigurationManager()
+  File "F:\MLops udemy\END-TO-END-NLP-Project\src\textsummarizer\config\configuration.py", line 13, in __init__
+    create_directories(self.config.root,1)
+  File "box\config_box.py", line 30, in box.config_box.ConfigBox.__getattr__
+  File "box\box.py", line 552, in box.box.Box.__getattr__
+box.exceptions.BoxKeyError: "'ConfigBox' object has no attribute 'root'"
+[2025-01-24 10:33:10,030: INFO: main:  Stage Name: Data Ingestion  <<<<<<<<<< initiated >>>>>>>>>>]
+[2025-01-24 10:33:10,030: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-01-24 10:33:10,030: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-01-24 10:33:10,030: ERROR: main: "'ConfigBox' object has no attribute 'root'"]
+Traceback (most recent call last):
+  File "box\box.py", line 503, in box.box.Box.__getitem__
+KeyError: 'root'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "box\box.py", line 536, in box.box.Box.__getattr__
+  File "box\box.py", line 524, in box.box.Box.__getitem__
+box.exceptions.BoxKeyError: "'root'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "box\box.py", line 538, in box.box.Box.__getattr__
+AttributeError: 'ConfigBox' object has no attribute 'root'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "box\config_box.py", line 28, in box.config_box.ConfigBox.__getattr__
+  File "box\box.py", line 552, in box.box.Box.__getattr__
+box.exceptions.BoxKeyError: "'ConfigBox' object has no attribute 'root'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "box\box.py", line 503, in box.box.Box.__getitem__
+KeyError: 'root'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "box\box.py", line 536, in box.box.Box.__getattr__
+  File "box\box.py", line 524, in box.box.Box.__getitem__
+box.exceptions.BoxKeyError: "'root'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "box\box.py", line 538, in box.box.Box.__getattr__
+AttributeError: 'ConfigBox' object has no attribute 'root'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "F:\MLops udemy\END-TO-END-NLP-Project\main.py", line 9, in <module>
+    data_ingestion.initiate_data_ingestion()
+  File "F:\MLops udemy\END-TO-END-NLP-Project\src\textsummarizer\pipeline\data_ingestion_pipeline.py", line 13, in initiate_data_ingestion
+    config = ConfigurationManager()
+  File "F:\MLops udemy\END-TO-END-NLP-Project\src\textsummarizer\config\configuration.py", line 13, in __init__
+    create_directories(self.config.root,1)
+  File "box\config_box.py", line 30, in box.config_box.ConfigBox.__getattr__
+  File "box\box.py", line 552, in box.box.Box.__getattr__
+box.exceptions.BoxKeyError: "'ConfigBox' object has no attribute 'root'"
+[2025-01-24 10:33:46,650: INFO: main:  Stage Name: Data Ingestion  <<<<<<<<<< initiated >>>>>>>>>>]
+[2025-01-24 10:33:46,650: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-01-24 10:33:46,650: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-01-24 10:33:46,650: ERROR: main: "'ConfigBox' object has no attribute 'root'"]
+Traceback (most recent call last):
+  File "box\box.py", line 503, in box.box.Box.__getitem__
+KeyError: 'root'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "box\box.py", line 536, in box.box.Box.__getattr__
+  File "box\box.py", line 524, in box.box.Box.__getitem__
+box.exceptions.BoxKeyError: "'root'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "box\box.py", line 538, in box.box.Box.__getattr__
+AttributeError: 'ConfigBox' object has no attribute 'root'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "box\config_box.py", line 28, in box.config_box.ConfigBox.__getattr__
+  File "box\box.py", line 552, in box.box.Box.__getattr__
+box.exceptions.BoxKeyError: "'ConfigBox' object has no attribute 'root'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "box\box.py", line 503, in box.box.Box.__getitem__
+KeyError: 'root'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "box\box.py", line 536, in box.box.Box.__getattr__
+  File "box\box.py", line 524, in box.box.Box.__getitem__
+box.exceptions.BoxKeyError: "'root'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "box\box.py", line 538, in box.box.Box.__getattr__
+AttributeError: 'ConfigBox' object has no attribute 'root'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "F:\MLops udemy\END-TO-END-NLP-Project\main.py", line 9, in <module>
+    data_ingestion.initiate_data_ingestion()
+  File "F:\MLops udemy\END-TO-END-NLP-Project\src\textsummarizer\pipeline\data_ingestion_pipeline.py", line 13, in initiate_data_ingestion
+    config = ConfigurationManager()
+  File "F:\MLops udemy\END-TO-END-NLP-Project\src\textsummarizer\config\configuration.py", line 13, in __init__
+    create_directories(self.config.root,1)
+  File "box\config_box.py", line 30, in box.config_box.ConfigBox.__getattr__
+  File "box\box.py", line 552, in box.box.Box.__getattr__
+box.exceptions.BoxKeyError: "'ConfigBox' object has no attribute 'root'"
+[2025-01-24 10:33:50,574: INFO: main:  Stage Name: Data Ingestion  <<<<<<<<<< initiated >>>>>>>>>>]
+[2025-01-24 10:33:50,574: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-01-24 10:33:50,574: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-01-24 10:33:50,574: ERROR: main: "'ConfigBox' object has no attribute 'root'"]
+Traceback (most recent call last):
+  File "box\box.py", line 503, in box.box.Box.__getitem__
+KeyError: 'root'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "box\box.py", line 536, in box.box.Box.__getattr__
+  File "box\box.py", line 524, in box.box.Box.__getitem__
+box.exceptions.BoxKeyError: "'root'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "box\box.py", line 538, in box.box.Box.__getattr__
+AttributeError: 'ConfigBox' object has no attribute 'root'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "box\config_box.py", line 28, in box.config_box.ConfigBox.__getattr__
+  File "box\box.py", line 552, in box.box.Box.__getattr__
+box.exceptions.BoxKeyError: "'ConfigBox' object has no attribute 'root'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "box\box.py", line 503, in box.box.Box.__getitem__
+KeyError: 'root'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "box\box.py", line 536, in box.box.Box.__getattr__
+  File "box\box.py", line 524, in box.box.Box.__getitem__
+box.exceptions.BoxKeyError: "'root'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "box\box.py", line 538, in box.box.Box.__getattr__
+AttributeError: 'ConfigBox' object has no attribute 'root'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "F:\MLops udemy\END-TO-END-NLP-Project\main.py", line 9, in <module>
+    data_ingestion.initiate_data_ingestion()
+  File "F:\MLops udemy\END-TO-END-NLP-Project\src\textsummarizer\pipeline\data_ingestion_pipeline.py", line 13, in initiate_data_ingestion
+    config = ConfigurationManager()
+  File "F:\MLops udemy\END-TO-END-NLP-Project\src\textsummarizer\config\configuration.py", line 13, in __init__
+    create_directories(self.config.root,1)
+  File "box\config_box.py", line 30, in box.config_box.ConfigBox.__getattr__
+  File "box\box.py", line 552, in box.box.Box.__getattr__
+box.exceptions.BoxKeyError: "'ConfigBox' object has no attribute 'root'"
+[2025-01-24 10:35:01,889: INFO: main:  Stage Name: Data Ingestion  <<<<<<<<<< initiated >>>>>>>>>>]
+[2025-01-24 10:35:01,889: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-01-24 10:35:01,889: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-01-24 10:35:01,889: ERROR: main: "'ConfigBox' object has no attribute 'root_dir'"]
+Traceback (most recent call last):
+  File "box\box.py", line 503, in box.box.Box.__getitem__
+KeyError: 'root_dir'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "box\box.py", line 536, in box.box.Box.__getattr__
+  File "box\box.py", line 524, in box.box.Box.__getitem__
+box.exceptions.BoxKeyError: "'root_dir'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "box\box.py", line 538, in box.box.Box.__getattr__
+AttributeError: 'ConfigBox' object has no attribute 'root_dir'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "box\config_box.py", line 28, in box.config_box.ConfigBox.__getattr__
+  File "box\box.py", line 552, in box.box.Box.__getattr__
+box.exceptions.BoxKeyError: "'ConfigBox' object has no attribute 'root_dir'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "box\box.py", line 503, in box.box.Box.__getitem__
+KeyError: 'root_dir'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "box\box.py", line 536, in box.box.Box.__getattr__
+  File "box\box.py", line 524, in box.box.Box.__getitem__
+box.exceptions.BoxKeyError: "'root_dir'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "box\box.py", line 538, in box.box.Box.__getattr__
+AttributeError: 'ConfigBox' object has no attribute 'root_dir'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "F:\MLops udemy\END-TO-END-NLP-Project\main.py", line 9, in <module>
+    data_ingestion.initiate_data_ingestion()
+  File "F:\MLops udemy\END-TO-END-NLP-Project\src\textsummarizer\pipeline\data_ingestion_pipeline.py", line 13, in initiate_data_ingestion
+    config = ConfigurationManager()
+  File "F:\MLops udemy\END-TO-END-NLP-Project\src\textsummarizer\config\configuration.py", line 13, in __init__
+    create_directories(self.config.root_dir,1)
+  File "box\config_box.py", line 30, in box.config_box.ConfigBox.__getattr__
+  File "box\box.py", line 552, in box.box.Box.__getattr__
+box.exceptions.BoxKeyError: "'ConfigBox' object has no attribute 'root_dir'"
+[2025-01-24 10:35:32,598: INFO: main:  Stage Name: Data Ingestion  <<<<<<<<<< initiated >>>>>>>>>>]
+[2025-01-24 10:35:32,598: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-01-24 10:35:32,598: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-01-24 10:35:32,598: ERROR: main: Argument path_to_directories of type <class 'str'> to <function create_directories at 0x0000014733730F70> does not match annotation type <class 'list'>]
+Traceback (most recent call last):
+  File "F:\MLops udemy\END-TO-END-NLP-Project\main.py", line 9, in <module>
+    data_ingestion.initiate_data_ingestion()
+  File "F:\MLops udemy\END-TO-END-NLP-Project\src\textsummarizer\pipeline\data_ingestion_pipeline.py", line 13, in initiate_data_ingestion
+    config = ConfigurationManager()
+  File "F:\MLops udemy\END-TO-END-NLP-Project\src\textsummarizer\config\configuration.py", line 13, in __init__
+    create_directories(self.config.artifacts_root,1)
+  File "f:\MLops udemy\END-TO-END-NLP-Project\venv\lib\site-packages\ensure\main.py", line 803, in __call__
+    raise EnsureError(msg.format(
+ensure.main.EnsureError: Argument path_to_directories of type <class 'str'> to <function create_directories at 0x0000014733730F70> does not match annotation type <class 'list'>
+[2025-01-24 10:35:51,861: INFO: main:  Stage Name: Data Ingestion  <<<<<<<<<< initiated >>>>>>>>>>]
+[2025-01-24 10:35:51,861: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-01-24 10:35:51,873: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-01-24 10:35:51,877: INFO: common: crested directory at: artifacts]
+[2025-01-24 10:35:51,884: ERROR: main: expected str, bytes or os.PathLike object, not int]
+Traceback (most recent call last):
+  File "F:\MLops udemy\END-TO-END-NLP-Project\main.py", line 9, in <module>
+    data_ingestion.initiate_data_ingestion()
+  File "F:\MLops udemy\END-TO-END-NLP-Project\src\textsummarizer\pipeline\data_ingestion_pipeline.py", line 13, in initiate_data_ingestion
+    config = ConfigurationManager()
+  File "F:\MLops udemy\END-TO-END-NLP-Project\src\textsummarizer\config\configuration.py", line 13, in __init__
+    create_directories([self.config.artifacts_root,1])
+  File "f:\MLops udemy\END-TO-END-NLP-Project\venv\lib\site-packages\ensure\main.py", line 807, in __call__
+    return self.f(*args, **kwargs)
+  File "F:\MLops udemy\END-TO-END-NLP-Project\src\textsummarizer\utlis\common.py", line 29, in create_directories
+    path=Path(path)
+  File "f:\MLops udemy\END-TO-END-NLP-Project\venv\lib\pathlib.py", line 958, in __new__
+    self = cls._from_parts(args)
+  File "f:\MLops udemy\END-TO-END-NLP-Project\venv\lib\pathlib.py", line 592, in _from_parts
+    drv, root, parts = self._parse_args(args)
+  File "f:\MLops udemy\END-TO-END-NLP-Project\venv\lib\pathlib.py", line 576, in _parse_args
+    a = os.fspath(a)
+TypeError: expected str, bytes or os.PathLike object, not int
+[2025-01-24 10:37:00,783: INFO: main:  Stage Name: Data Ingestion  <<<<<<<<<< initiated >>>>>>>>>>]
+[2025-01-24 10:37:00,783: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-01-24 10:37:00,783: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-01-24 10:37:00,783: INFO: common: crested directory at: artifacts]
+[2025-01-24 10:37:00,794: INFO: common: crested directory at: 1]
+[2025-01-24 10:37:00,796: ERROR: main: "'ConfigBox' object has no attribute 'root_dir'"]
+Traceback (most recent call last):
+  File "box\box.py", line 503, in box.box.Box.__getitem__
+KeyError: 'root_dir'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "box\box.py", line 536, in box.box.Box.__getattr__
+  File "box\box.py", line 524, in box.box.Box.__getitem__
+box.exceptions.BoxKeyError: "'root_dir'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "box\box.py", line 538, in box.box.Box.__getattr__
+AttributeError: 'ConfigBox' object has no attribute 'root_dir'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "box\config_box.py", line 28, in box.config_box.ConfigBox.__getattr__
+  File "box\box.py", line 552, in box.box.Box.__getattr__
+box.exceptions.BoxKeyError: "'ConfigBox' object has no attribute 'root_dir'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "box\box.py", line 503, in box.box.Box.__getitem__
+KeyError: 'root_dir'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "box\box.py", line 536, in box.box.Box.__getattr__
+  File "box\box.py", line 524, in box.box.Box.__getitem__
+box.exceptions.BoxKeyError: "'root_dir'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "box\box.py", line 538, in box.box.Box.__getattr__
+AttributeError: 'ConfigBox' object has no attribute 'root_dir'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "F:\MLops udemy\END-TO-END-NLP-Project\main.py", line 9, in <module>
+    data_ingestion.initiate_data_ingestion()
+  File "F:\MLops udemy\END-TO-END-NLP-Project\src\textsummarizer\pipeline\data_ingestion_pipeline.py", line 14, in initiate_data_ingestion
+    data_ingestion_config = config.get_data_ingestion_config()
+  File "F:\MLops udemy\END-TO-END-NLP-Project\src\textsummarizer\config\configuration.py", line 17, in get_data_ingestion_config
+    root_dir = self.config.root_dir
+  File "box\config_box.py", line 30, in box.config_box.ConfigBox.__getattr__
+  File "box\box.py", line 552, in box.box.Box.__getattr__
+box.exceptions.BoxKeyError: "'ConfigBox' object has no attribute 'root_dir'"
+[2025-01-24 10:37:55,697: INFO: main:  Stage Name: Data Ingestion  <<<<<<<<<< initiated >>>>>>>>>>]
+[2025-01-24 10:37:55,697: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-01-24 10:37:55,697: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-01-24 10:37:55,697: INFO: common: crested directory at: artifacts]
+[2025-01-24 10:37:55,697: INFO: common: crested directory at: 1]
+[2025-01-24 10:37:55,709: ERROR: main: "'ConfigBox' object has no attribute 'root_dir'"]
+Traceback (most recent call last):
+  File "box\box.py", line 503, in box.box.Box.__getitem__
+KeyError: 'root_dir'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "box\box.py", line 536, in box.box.Box.__getattr__
+  File "box\box.py", line 524, in box.box.Box.__getitem__
+box.exceptions.BoxKeyError: "'root_dir'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "box\box.py", line 538, in box.box.Box.__getattr__
+AttributeError: 'ConfigBox' object has no attribute 'root_dir'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "box\config_box.py", line 28, in box.config_box.ConfigBox.__getattr__
+  File "box\box.py", line 552, in box.box.Box.__getattr__
+box.exceptions.BoxKeyError: "'ConfigBox' object has no attribute 'root_dir'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "box\box.py", line 503, in box.box.Box.__getitem__
+KeyError: 'root_dir'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "box\box.py", line 536, in box.box.Box.__getattr__
+  File "box\box.py", line 524, in box.box.Box.__getitem__
+box.exceptions.BoxKeyError: "'root_dir'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "box\box.py", line 538, in box.box.Box.__getattr__
+AttributeError: 'ConfigBox' object has no attribute 'root_dir'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "F:\MLops udemy\END-TO-END-NLP-Project\main.py", line 9, in <module>
+    data_ingestion.initiate_data_ingestion()
+  File "F:\MLops udemy\END-TO-END-NLP-Project\src\textsummarizer\pipeline\data_ingestion_pipeline.py", line 14, in initiate_data_ingestion
+    data_ingestion_config = config.get_data_ingestion_config()
+  File "F:\MLops udemy\END-TO-END-NLP-Project\src\textsummarizer\config\configuration.py", line 17, in get_data_ingestion_config
+    create_directories([self.config.root_dir,"1"])
+  File "box\config_box.py", line 30, in box.config_box.ConfigBox.__getattr__
+  File "box\box.py", line 552, in box.box.Box.__getattr__
+box.exceptions.BoxKeyError: "'ConfigBox' object has no attribute 'root_dir'"
+[2025-01-24 10:41:21,494: INFO: main:  Stage Name: Data Ingestion  <<<<<<<<<< initiated >>>>>>>>>>]
+[2025-01-24 10:41:21,494: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-01-24 10:41:21,494: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-01-24 10:41:21,494: INFO: common: crested directory at: artifacts]
+[2025-01-24 10:41:21,494: INFO: common: crested directory at: 1]
+[2025-01-24 10:41:21,508: INFO: common: crested directory at: artifacts\data_ingestion]
+[2025-01-24 10:41:21,509: INFO: common: crested directory at: 1]
+[2025-01-24 10:41:21,511: ERROR: main: "'ConfigBox' object has no attribute 'local_data__file'"]
+Traceback (most recent call last):
+  File "box\box.py", line 503, in box.box.Box.__getitem__
+KeyError: 'local_data__file'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "box\box.py", line 536, in box.box.Box.__getattr__
+  File "box\box.py", line 524, in box.box.Box.__getitem__
+box.exceptions.BoxKeyError: "'local_data__file'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "box\box.py", line 538, in box.box.Box.__getattr__
+AttributeError: 'ConfigBox' object has no attribute 'local_data__file'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "box\config_box.py", line 28, in box.config_box.ConfigBox.__getattr__
+  File "box\box.py", line 552, in box.box.Box.__getattr__
+box.exceptions.BoxKeyError: "'ConfigBox' object has no attribute 'local_data__file'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "box\box.py", line 503, in box.box.Box.__getitem__
+KeyError: 'local_data__file'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "box\box.py", line 536, in box.box.Box.__getattr__
+  File "box\box.py", line 524, in box.box.Box.__getitem__
+box.exceptions.BoxKeyError: "'local_data__file'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "box\box.py", line 538, in box.box.Box.__getattr__
+AttributeError: 'ConfigBox' object has no attribute 'local_data__file'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "F:\MLops udemy\END-TO-END-NLP-Project\main.py", line 9, in <module>
+    data_ingestion.initiate_data_ingestion()
+  File "F:\MLops udemy\END-TO-END-NLP-Project\src\textsummarizer\pipeline\data_ingestion_pipeline.py", line 14, in initiate_data_ingestion
+    data_ingestion_config = config.get_data_ingestion_config()
+  File "F:\MLops udemy\END-TO-END-NLP-Project\src\textsummarizer\config\configuration.py", line 22, in get_data_ingestion_config
+    local_data_file = config.local_data__file
+  File "box\config_box.py", line 30, in box.config_box.ConfigBox.__getattr__
+  File "box\box.py", line 552, in box.box.Box.__getattr__
+box.exceptions.BoxKeyError: "'ConfigBox' object has no attribute 'local_data__file'"
+[2025-01-24 10:42:04,421: INFO: main:  Stage Name: Data Ingestion  <<<<<<<<<< initiated >>>>>>>>>>]
+[2025-01-24 10:42:04,421: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-01-24 10:42:04,421: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-01-24 10:42:04,421: INFO: common: crested directory at: artifacts]
+[2025-01-24 10:42:04,429: INFO: common: crested directory at: 1]
+[2025-01-24 10:42:04,432: INFO: common: crested directory at: artifacts\data_ingestion]
+[2025-01-24 10:42:04,433: INFO: common: crested directory at: 1]
+[2025-01-24 10:42:04,435: ERROR: main: DataIngestion() takes no arguments]
+Traceback (most recent call last):
+  File "F:\MLops udemy\END-TO-END-NLP-Project\main.py", line 9, in <module>
+    data_ingestion.initiate_data_ingestion()
+  File "F:\MLops udemy\END-TO-END-NLP-Project\src\textsummarizer\pipeline\data_ingestion_pipeline.py", line 15, in initiate_data_ingestion
+    data_ingestion_func = DataIngestion(data_ingestion_config)
+TypeError: DataIngestion() takes no arguments
+[2025-01-24 10:43:54,865: INFO: main:  Stage Name: Data Ingestion  <<<<<<<<<< initiated >>>>>>>>>>]
+[2025-01-24 10:43:54,865: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-01-24 10:43:54,865: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-01-24 10:43:54,865: INFO: common: crested directory at: artifacts]
+[2025-01-24 10:43:54,865: INFO: common: crested directory at: 1]
+[2025-01-24 10:43:54,878: INFO: common: crested directory at: artifacts\data_ingestion]
+[2025-01-24 10:43:54,879: INFO: common: crested directory at: 1]
+[2025-01-24 10:43:54,880: ERROR: main: DataIngestion() takes no arguments]
+Traceback (most recent call last):
+  File "F:\MLops udemy\END-TO-END-NLP-Project\main.py", line 9, in <module>
+    data_ingestion.initiate_data_ingestion()
+  File "F:\MLops udemy\END-TO-END-NLP-Project\src\textsummarizer\pipeline\data_ingestion_pipeline.py", line 15, in initiate_data_ingestion
+    data_ingestion_func = DataIngestion(config=data_ingestion_config)
+TypeError: DataIngestion() takes no arguments
+[2025-01-24 10:44:45,879: INFO: main:  Stage Name: Data Ingestion  <<<<<<<<<< initiated >>>>>>>>>>]
+[2025-01-24 10:44:45,879: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-01-24 10:44:45,879: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-01-24 10:44:45,879: INFO: common: crested directory at: artifacts]
+[2025-01-24 10:44:45,890: INFO: common: crested directory at: 1]
+[2025-01-24 10:44:45,892: INFO: common: crested directory at: artifacts\data_ingestion]
+[2025-01-24 10:44:45,895: INFO: common: crested directory at: 1]
+[2025-01-24 10:44:45,895: ERROR: main: DataIngestion() takes no arguments]
+Traceback (most recent call last):
+  File "F:\MLops udemy\END-TO-END-NLP-Project\main.py", line 9, in <module>
+    data_ingestion.initiate_data_ingestion()
+  File "F:\MLops udemy\END-TO-END-NLP-Project\src\textsummarizer\pipeline\data_ingestion_pipeline.py", line 15, in initiate_data_ingestion
+    data_ingestion_func = DataIngestion(config=data_ingestion_config)
+TypeError: DataIngestion() takes no arguments
+[2025-01-24 10:45:06,857: INFO: main:  Stage Name: Data Ingestion  <<<<<<<<<< initiated >>>>>>>>>>]
+[2025-01-24 10:45:06,857: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-01-24 10:45:06,857: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-01-24 10:45:06,857: INFO: common: crested directory at: artifacts]
+[2025-01-24 10:45:06,871: INFO: common: crested directory at: 1]
+[2025-01-24 10:45:06,873: INFO: common: crested directory at: artifacts\data_ingestion]
+[2025-01-24 10:45:06,876: INFO: common: crested directory at: 1]
+[2025-01-24 10:45:09,242: INFO: data_ingestion: artifacts/data_ingestion/data.zip is downloaded]
+[2025-01-24 10:45:09,608: INFO: main:  Stage Name: Data Ingestion  <<<<<<<<<< completed successfully >>>>>>>>>>]
+[2025-01-24 10:49:53,628: INFO: main:  Stage Name: Data Ingestion  <<<<<<<<<< initiated >>>>>>>>>>]
+[2025-01-24 10:49:53,633: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-01-24 10:49:53,633: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-01-24 10:49:53,633: INFO: common: crested directory at: artifacts]
+[2025-01-24 10:49:53,633: INFO: common: crested directory at: artifacts\data_ingestion]
+[2025-01-24 10:49:53,639: ERROR: main: local variable 'filename' referenced before assignment]
+Traceback (most recent call last):
+  File "F:\MLops udemy\END-TO-END-NLP-Project\main.py", line 9, in <module>
+    data_ingestion.initiate_data_ingestion()
+  File "F:\MLops udemy\END-TO-END-NLP-Project\src\textsummarizer\pipeline\data_ingestion_pipeline.py", line 16, in initiate_data_ingestion
+    data_ingestion_func.download_file()
+  File "F:\MLops udemy\END-TO-END-NLP-Project\src\textsummarizer\components\data_ingestion.py", line 22, in download_file
+    logger.info(f"{filename} is already exists")
+UnboundLocalError: local variable 'filename' referenced before assignment
+[2025-01-24 10:51:07,993: INFO: main:  Stage Name: Data Ingestion  <<<<<<<<<< initiated >>>>>>>>>>]
+[2025-01-24 10:51:07,993: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-01-24 10:51:08,004: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-01-24 10:51:08,004: INFO: common: crested directory at: artifacts]
+[2025-01-24 10:51:08,008: INFO: common: crested directory at: artifacts\data_ingestion]
+[2025-01-24 10:51:08,009: INFO: data_ingestion: files already exists]
+[2025-01-24 10:51:08,247: INFO: main:  Stage Name: Data Ingestion  <<<<<<<<<< completed successfully >>>>>>>>>>]
+[2025-01-24 16:07:56,829: INFO: config: PyTorch version 2.5.1 available.]
+[2025-01-24 16:08:00,866: INFO: main:  Stage Name: Data Ingestion  <<<<<<<<<< initiated >>>>>>>>>>]
+[2025-01-24 16:08:00,866: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-01-24 16:08:00,866: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-01-24 16:08:00,866: INFO: common: crested directory at: artifacts]
+[2025-01-24 16:08:00,866: INFO: common: crested directory at: artifacts\data_ingestion]
+[2025-01-24 16:08:00,875: INFO: data_ingestion: files already exists]
+[2025-01-24 16:08:01,667: INFO: main:  Stage Name: Data Ingestion  <<<<<<<<<< completed successfully >>>>>>>>>>]
+[2025-01-24 16:08:01,667: INFO: main:  Stage Name: Data Transformation  <<<<<<<<<< initiated >>>>>>>>>>]
+[2025-01-24 16:08:01,711: ERROR: main: DataTransformationPipeline.initialized_data_transformation() missing 1 required positional argument: 'self']
+Traceback (most recent call last):
+  File "F:\MLops udemy\END-TO-END-NLP-Project\main.py", line 22, in <module>
+    data_transformation.initialized_data_transformation()
+TypeError: DataTransformationPipeline.initialized_data_transformation() missing 1 required positional argument: 'self'
+[2025-01-24 16:09:40,774: INFO: config: PyTorch version 2.5.1 available.]
+[2025-01-24 16:09:41,329: INFO: main:  Stage Name: Data Ingestion  <<<<<<<<<< initiated >>>>>>>>>>]
+[2025-01-24 16:09:41,329: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-01-24 16:09:41,329: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-01-24 16:09:41,329: INFO: common: crested directory at: artifacts]
+[2025-01-24 16:09:41,338: INFO: common: crested directory at: artifacts\data_ingestion]
+[2025-01-24 16:09:41,340: INFO: data_ingestion: files already exists]
+[2025-01-24 16:09:41,660: INFO: main:  Stage Name: Data Ingestion  <<<<<<<<<< completed successfully >>>>>>>>>>]
+[2025-01-24 16:09:41,663: INFO: main:  Stage Name: Data Transformation  <<<<<<<<<< initiated >>>>>>>>>>]
+[2025-01-24 16:09:41,663: ERROR: main: DataTransformationPipeline.initialized_data_transformation() missing 1 required positional argument: 'self']
+Traceback (most recent call last):
+  File "F:\MLops udemy\END-TO-END-NLP-Project\main.py", line 22, in <module>
+    data_transformation.initialized_data_transformation()
+TypeError: DataTransformationPipeline.initialized_data_transformation() missing 1 required positional argument: 'self'
+[2025-01-24 16:10:07,232: INFO: config: PyTorch version 2.5.1 available.]
+[2025-01-24 16:10:07,769: INFO: main:  Stage Name: Data Ingestion  <<<<<<<<<< initiated >>>>>>>>>>]
+[2025-01-24 16:10:07,780: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-01-24 16:10:07,780: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-01-24 16:10:07,780: INFO: common: crested directory at: artifacts]
+[2025-01-24 16:10:07,784: INFO: common: crested directory at: artifacts\data_ingestion]
+[2025-01-24 16:10:07,786: INFO: data_ingestion: files already exists]
+[2025-01-24 16:10:08,014: INFO: main:  Stage Name: Data Ingestion  <<<<<<<<<< completed successfully >>>>>>>>>>]
+[2025-01-24 16:10:08,016: INFO: main:  Stage Name: Data Transformation  <<<<<<<<<< initiated >>>>>>>>>>]
+[2025-01-24 16:10:08,017: ERROR: main: ConfigurationManager.get_data_transformation_config() missing 1 required positional argument: 'self']
+Traceback (most recent call last):
+  File "F:\MLops udemy\END-TO-END-NLP-Project\main.py", line 22, in <module>
+    data_transformation.initialized_data_transformation()
+  File "F:\MLops udemy\END-TO-END-NLP-Project\src\textsummarizer\pipeline\data_transformation_pipeline.py", line 14, in initialized_data_transformation
+    data_transformation_config = config.get_data_transformation_config()
+TypeError: ConfigurationManager.get_data_transformation_config() missing 1 required positional argument: 'self'
+[2025-01-24 16:12:22,238: INFO: config: PyTorch version 2.5.1 available.]
+[2025-01-24 16:12:22,912: INFO: main:  Stage Name: Data Ingestion  <<<<<<<<<< initiated >>>>>>>>>>]
+[2025-01-24 16:12:22,924: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-01-24 16:12:22,926: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-01-24 16:12:22,928: INFO: common: crested directory at: artifacts]
+[2025-01-24 16:12:22,929: INFO: common: crested directory at: artifacts\data_ingestion]
+[2025-01-24 16:12:22,930: INFO: data_ingestion: files already exists]
+[2025-01-24 16:12:23,184: INFO: main:  Stage Name: Data Ingestion  <<<<<<<<<< completed successfully >>>>>>>>>>]
+[2025-01-24 16:12:23,186: INFO: main:  Stage Name: Data Transformation  <<<<<<<<<< initiated >>>>>>>>>>]
+[2025-01-24 16:12:23,187: ERROR: main: DataTransformationPipeline.initialized_data_transformation() missing 1 required positional argument: 'self']
+Traceback (most recent call last):
+  File "F:\MLops udemy\END-TO-END-NLP-Project\main.py", line 22, in <module>
+    data_transformation.initialized_data_transformation()
+TypeError: DataTransformationPipeline.initialized_data_transformation() missing 1 required positional argument: 'self'
+[2025-01-24 16:13:12,234: INFO: config: PyTorch version 2.5.1 available.]
+[2025-01-24 16:13:12,745: INFO: main:  Stage Name: Data Ingestion  <<<<<<<<<< initiated >>>>>>>>>>]
+[2025-01-24 16:13:12,745: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-01-24 16:13:12,745: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-01-24 16:13:12,745: INFO: common: crested directory at: artifacts]
+[2025-01-24 16:13:12,762: INFO: common: crested directory at: artifacts\data_ingestion]
+[2025-01-24 16:13:12,763: INFO: data_ingestion: files already exists]
+[2025-01-24 16:13:12,978: INFO: main:  Stage Name: Data Ingestion  <<<<<<<<<< completed successfully >>>>>>>>>>]
+[2025-01-24 16:13:12,991: INFO: main:  Stage Name: Data Transformation  <<<<<<<<<< initiated >>>>>>>>>>]
+[2025-01-24 16:13:12,991: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-01-24 16:13:13,002: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-01-24 16:13:13,004: INFO: common: crested directory at: artifacts]
+[2025-01-24 16:13:13,007: INFO: common: crested directory at: artifacts\data_transformation]
+[2025-01-24 16:13:37,136: ERROR: main: We couldn't connect to 'https://huggingface.co' to load this file, couldn't find it in the cached files and it looks like google/pegasus-cnn_dailymail is not the path to a directory containing a file named config.json.
+Checkout your internet connection or see how to run the library in offline mode at 'https://huggingface.co/docs/transformers/installation#offline-mode'.]
+Traceback (most recent call last):
+  File "F:\MLops udemy\END-TO-END-NLP-Project\venv\lib\site-packages\urllib3\connectionpool.py", line 464, in _make_request
+    self._validate_conn(conn)
+  File "F:\MLops udemy\END-TO-END-NLP-Project\venv\lib\site-packages\urllib3\connectionpool.py", line 1093, in _validate_conn
+    conn.connect()
+  File "F:\MLops udemy\END-TO-END-NLP-Project\venv\lib\site-packages\urllib3\connection.py", line 741, in connect
+    sock_and_verified = _ssl_wrap_socket_and_match_hostname(
+  File "F:\MLops udemy\END-TO-END-NLP-Project\venv\lib\site-packages\urllib3\connection.py", line 920, in _ssl_wrap_socket_and_match_hostname
+    ssl_sock = ssl_wrap_socket(
+  File "F:\MLops udemy\END-TO-END-NLP-Project\venv\lib\site-packages\urllib3\util\ssl_.py", line 460, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(sock, context, tls_in_tls, server_hostname)
+  File "F:\MLops udemy\END-TO-END-NLP-Project\venv\lib\site-packages\urllib3\util\ssl_.py", line 504, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock, server_hostname=server_hostname)
+  File "F:\MLops udemy\END-TO-END-NLP-Project\venv\lib\ssl.py", line 512, in wrap_socket
+    return self.sslsocket_class._create(
+  File "F:\MLops udemy\END-TO-END-NLP-Project\venv\lib\ssl.py", line 1070, in _create
+    self.do_handshake()
+  File "F:\MLops udemy\END-TO-END-NLP-Project\venv\lib\ssl.py", line 1341, in do_handshake
+    self._sslobj.do_handshake()
+TimeoutError: _ssl.c:980: The handshake operation timed out
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "F:\MLops udemy\END-TO-END-NLP-Project\venv\lib\site-packages\requests\adapters.py", line 667, in send
+    resp = conn.urlopen(
+  File "F:\MLops udemy\END-TO-END-NLP-Project\venv\lib\site-packages\urllib3\connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+  File "F:\MLops udemy\END-TO-END-NLP-Project\venv\lib\site-packages\urllib3\util\retry.py", line 474, in increment
+    raise reraise(type(error), error, _stacktrace)
+  File "F:\MLops udemy\END-TO-END-NLP-Project\venv\lib\site-packages\urllib3\util\util.py", line 39, in reraise
+    raise value
+  File "F:\MLops udemy\END-TO-END-NLP-Project\venv\lib\site-packages\urllib3\connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+  File "F:\MLops udemy\END-TO-END-NLP-Project\venv\lib\site-packages\urllib3\connectionpool.py", line 488, in _make_request
+    raise new_e
+  File "F:\MLops udemy\END-TO-END-NLP-Project\venv\lib\site-packages\urllib3\connectionpool.py", line 466, in _make_request
+    self._raise_timeout(err=e, url=url, timeout_value=conn.timeout)
+  File "F:\MLops udemy\END-TO-END-NLP-Project\venv\lib\site-packages\urllib3\connectionpool.py", line 367, in _raise_timeout
+    raise ReadTimeoutError(
+urllib3.exceptions.ReadTimeoutError: HTTPSConnectionPool(host='huggingface.co', port=443): Read timed out. (read timeout=10)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\MLops udemy\END-TO-END-NLP-Project\venv\lib\site-packages\huggingface_hub\file_download.py", line 1374, in _get_metadata_or_catch_error
+    metadata = get_hf_file_metadata(
+  File "F:\MLops udemy\END-TO-END-NLP-Project\venv\lib\site-packages\huggingface_hub\utils\_validators.py", line 114, in _inner_fn
+    return fn(*args, **kwargs)
+  File "F:\MLops udemy\END-TO-END-NLP-Project\venv\lib\site-packages\huggingface_hub\file_download.py", line 1294, in get_hf_file_metadata
+    r = _request_wrapper(
+  File "F:\MLops udemy\END-TO-END-NLP-Project\venv\lib\site-packages\huggingface_hub\file_download.py", line 278, in _request_wrapper
+    response = _request_wrapper(
+  File "F:\MLops udemy\END-TO-END-NLP-Project\venv\lib\site-packages\huggingface_hub\file_download.py", line 301, in _request_wrapper
+    response = get_session().request(method=method, url=url, **params)
+  File "F:\MLops udemy\END-TO-END-NLP-Project\venv\lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "F:\MLops udemy\END-TO-END-NLP-Project\venv\lib\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "F:\MLops udemy\END-TO-END-NLP-Project\venv\lib\site-packages\huggingface_hub\utils\_http.py", line 93, in send
+    return super().send(request, *args, **kwargs)
+  File "F:\MLops udemy\END-TO-END-NLP-Project\venv\lib\site-packages\requests\adapters.py", line 713, in send
+    raise ReadTimeout(e, request=request)
+requests.exceptions.ReadTimeout: (ReadTimeoutError("HTTPSConnectionPool(host='huggingface.co', port=443): Read timed out. (read timeout=10)"), '(Request ID: 379f863b-5b4e-4b9b-b250-68e418c4cc6f)')
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "F:\MLops udemy\END-TO-END-NLP-Project\venv\lib\site-packages\transformers\utils\hub.py", line 403, in cached_file
+    resolved_file = hf_hub_download(
+  File "F:\MLops udemy\END-TO-END-NLP-Project\venv\lib\site-packages\huggingface_hub\utils\_validators.py", line 114, in _inner_fn
+    return fn(*args, **kwargs)
+  File "F:\MLops udemy\END-TO-END-NLP-Project\venv\lib\site-packages\huggingface_hub\file_download.py", line 860, in hf_hub_download
+    return _hf_hub_download_to_cache_dir(
+  File "F:\MLops udemy\END-TO-END-NLP-Project\venv\lib\site-packages\huggingface_hub\file_download.py", line 967, in _hf_hub_download_to_cache_dir
+    _raise_on_head_call_error(head_call_error, force_download, local_files_only)
+  File "F:\MLops udemy\END-TO-END-NLP-Project\venv\lib\site-packages\huggingface_hub\file_download.py", line 1485, in _raise_on_head_call_error
+    raise LocalEntryNotFoundError(
+huggingface_hub.errors.LocalEntryNotFoundError: An error happened while trying to locate the file on the Hub and we cannot find the requested files in the local cache. Please check your connection and try again or make sure your Internet connection is on.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "F:\MLops udemy\END-TO-END-NLP-Project\main.py", line 22, in <module>
+    data_transformation.initialized_data_transformation()
+  File "F:\MLops udemy\END-TO-END-NLP-Project\src\textsummarizer\pipeline\data_transformation_pipeline.py", line 15, in initialized_data_transformation
+    data_transformation = DataTransformation(data_transformation_config)
+  File "F:\MLops udemy\END-TO-END-NLP-Project\src\textsummarizer\components\data_transformation.py", line 10, in __init__
+    self.tokenizer = AutoTokenizer.from_pretrained(config.tokenizer_name)
+  File "F:\MLops udemy\END-TO-END-NLP-Project\venv\lib\site-packages\transformers\models\auto\tokenization_auto.py", line 891, in from_pretrained
+    config = AutoConfig.from_pretrained(
+  File "F:\MLops udemy\END-TO-END-NLP-Project\venv\lib\site-packages\transformers\models\auto\configuration_auto.py", line 1054, in from_pretrained
+    config_dict, unused_kwargs = PretrainedConfig.get_config_dict(pretrained_model_name_or_path, **kwargs)
+  File "F:\MLops udemy\END-TO-END-NLP-Project\venv\lib\site-packages\transformers\configuration_utils.py", line 591, in get_config_dict
+    config_dict, kwargs = cls._get_config_dict(pretrained_model_name_or_path, **kwargs)
+  File "F:\MLops udemy\END-TO-END-NLP-Project\venv\lib\site-packages\transformers\configuration_utils.py", line 650, in _get_config_dict
+    resolved_config_file = cached_file(
+  File "F:\MLops udemy\END-TO-END-NLP-Project\venv\lib\site-packages\transformers\utils\hub.py", line 446, in cached_file
+    raise EnvironmentError(
+OSError: We couldn't connect to 'https://huggingface.co' to load this file, couldn't find it in the cached files and it looks like google/pegasus-cnn_dailymail is not the path to a directory containing a file named config.json.
+Checkout your internet connection or see how to run the library in offline mode at 'https://huggingface.co/docs/transformers/installation#offline-mode'.
+[2025-01-24 18:53:11,510: INFO: config: PyTorch version 2.5.1 available.]
+[2025-01-24 18:53:15,082: INFO: main:  Stage Name: Data Ingestion  <<<<<<<<<< initiated >>>>>>>>>>]
+[2025-01-24 18:53:15,097: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-01-24 18:53:15,099: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-01-24 18:53:15,100: INFO: common: crested directory at: artifacts]
+[2025-01-24 18:53:15,100: INFO: common: crested directory at: artifacts\data_ingestion]
+[2025-01-24 18:53:15,100: INFO: data_ingestion: files already exists]
+[2025-01-24 18:53:15,903: INFO: main:  Stage Name: Data Ingestion  <<<<<<<<<< completed successfully >>>>>>>>>>]
+[2025-01-24 18:53:15,903: INFO: main:  Stage Name: Data Transformation  <<<<<<<<<< initiated >>>>>>>>>>]
+[2025-01-24 18:53:15,920: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-01-24 18:53:15,929: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-01-24 18:53:15,931: INFO: common: crested directory at: artifacts]
+[2025-01-24 18:53:15,931: INFO: common: crested directory at: artifacts\data_transformation]
+[2025-01-24 18:53:34,382: ERROR: main: name 'input_encodings' is not defined]
+Traceback (most recent call last):
+  File "F:\MLops udemy\END-TO-END-NLP-Project\main.py", line 22, in <module>
+    data_transformation.initialized_data_transformation()
+  File "F:\MLops udemy\END-TO-END-NLP-Project\src\textsummarizer\pipeline\data_transformation_pipeline.py", line 16, in initialized_data_transformation
+    data_transformation.convert()
+  File "F:\MLops udemy\END-TO-END-NLP-Project\src\textsummarizer\components\data_transformation.py", line 26, in convert
+    dataset_samsum_pt = dataset_samsum.map(self.convert_examples_to_features, batched =True)
+  File "C:\Users\DELL\AppData\Roaming\Python\Python310\site-packages\datasets\dataset_dict.py", line 886, in map
+    {
+  File "C:\Users\DELL\AppData\Roaming\Python\Python310\site-packages\datasets\dataset_dict.py", line 887, in <dictcomp>
+    k: dataset.map(
+  File "C:\Users\DELL\AppData\Roaming\Python\Python310\site-packages\datasets\arrow_dataset.py", line 560, in wrapper
+    out: Union["Dataset", "DatasetDict"] = func(self, *args, **kwargs)
+  File "C:\Users\DELL\AppData\Roaming\Python\Python310\site-packages\datasets\arrow_dataset.py", line 3073, in map
+    for rank, done, content in Dataset._map_single(**dataset_kwargs):
+  File "C:\Users\DELL\AppData\Roaming\Python\Python310\site-packages\datasets\arrow_dataset.py", line 3476, in _map_single
+    batch = apply_function_on_filtered_inputs(
+  File "C:\Users\DELL\AppData\Roaming\Python\Python310\site-packages\datasets\arrow_dataset.py", line 3338, in apply_function_on_filtered_inputs
+    processed_inputs = function(*fn_args, *additional_args, **fn_kwargs)
+  File "F:\MLops udemy\END-TO-END-NLP-Project\src\textsummarizer\components\data_transformation.py", line 19, in convert_examples_to_features
+    'inputs_ids': input_encodings['inputs_ids'],
+NameError: name 'input_encodings' is not defined
+[2025-01-24 18:55:44,725: INFO: config: PyTorch version 2.5.1 available.]
+[2025-01-24 18:55:45,318: INFO: main:  Stage Name: Data Ingestion  <<<<<<<<<< initiated >>>>>>>>>>]
+[2025-01-24 18:55:45,318: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-01-24 18:55:45,318: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-01-24 18:55:45,318: INFO: common: crested directory at: artifacts]
+[2025-01-24 18:55:45,318: INFO: common: crested directory at: artifacts\data_ingestion]
+[2025-01-24 18:55:45,318: INFO: data_ingestion: files already exists]
+[2025-01-24 18:55:45,691: INFO: main:  Stage Name: Data Ingestion  <<<<<<<<<< completed successfully >>>>>>>>>>]
+[2025-01-24 18:55:45,712: INFO: main:  Stage Name: Data Transformation  <<<<<<<<<< initiated >>>>>>>>>>]
+[2025-01-24 18:55:45,780: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-01-24 18:55:45,786: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-01-24 18:55:45,809: INFO: common: crested directory at: artifacts]
+[2025-01-24 18:55:45,811: INFO: common: crested directory at: artifacts\data_transformation]
+[2025-01-24 18:55:49,298: ERROR: main: 'inputs_ids']
+Traceback (most recent call last):
+  File "F:\MLops udemy\END-TO-END-NLP-Project\main.py", line 22, in <module>
+    data_transformation.initialized_data_transformation()
+  File "F:\MLops udemy\END-TO-END-NLP-Project\src\textsummarizer\pipeline\data_transformation_pipeline.py", line 16, in initialized_data_transformation
+    data_transformation.convert()
+  File "F:\MLops udemy\END-TO-END-NLP-Project\src\textsummarizer\components\data_transformation.py", line 26, in convert
+    dataset_samsum_pt = dataset_samsum.map(self.convert_examples_to_features, batched =True)
+  File "C:\Users\DELL\AppData\Roaming\Python\Python310\site-packages\datasets\dataset_dict.py", line 886, in map
+    {
+  File "C:\Users\DELL\AppData\Roaming\Python\Python310\site-packages\datasets\dataset_dict.py", line 887, in <dictcomp>
+    k: dataset.map(
+  File "C:\Users\DELL\AppData\Roaming\Python\Python310\site-packages\datasets\arrow_dataset.py", line 560, in wrapper
+    out: Union["Dataset", "DatasetDict"] = func(self, *args, **kwargs)
+  File "C:\Users\DELL\AppData\Roaming\Python\Python310\site-packages\datasets\arrow_dataset.py", line 3073, in map
+    for rank, done, content in Dataset._map_single(**dataset_kwargs):
+  File "C:\Users\DELL\AppData\Roaming\Python\Python310\site-packages\datasets\arrow_dataset.py", line 3476, in _map_single
+    batch = apply_function_on_filtered_inputs(
+  File "C:\Users\DELL\AppData\Roaming\Python\Python310\site-packages\datasets\arrow_dataset.py", line 3338, in apply_function_on_filtered_inputs
+    processed_inputs = function(*fn_args, *additional_args, **fn_kwargs)
+  File "F:\MLops udemy\END-TO-END-NLP-Project\src\textsummarizer\components\data_transformation.py", line 19, in convert_examples_to_features
+    'inputs_ids': input_encoding['inputs_ids'],
+  File "F:\MLops udemy\END-TO-END-NLP-Project\venv\lib\site-packages\transformers\tokenization_utils_base.py", line 271, in __getitem__
+    return self.data[item]
+KeyError: 'inputs_ids'
+[2025-01-24 18:56:51,574: INFO: config: PyTorch version 2.5.1 available.]
+[2025-01-24 18:56:52,128: INFO: main:  Stage Name: Data Ingestion  <<<<<<<<<< initiated >>>>>>>>>>]
+[2025-01-24 18:56:52,128: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-01-24 18:56:52,128: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-01-24 18:56:52,136: INFO: common: crested directory at: artifacts]
+[2025-01-24 18:56:52,137: INFO: common: crested directory at: artifacts\data_ingestion]
+[2025-01-24 18:56:52,138: INFO: data_ingestion: files already exists]
+[2025-01-24 18:56:52,362: INFO: main:  Stage Name: Data Ingestion  <<<<<<<<<< completed successfully >>>>>>>>>>]
+[2025-01-24 18:56:52,362: INFO: main:  Stage Name: Data Transformation  <<<<<<<<<< initiated >>>>>>>>>>]
+[2025-01-24 18:56:52,362: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-01-24 18:56:52,374: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-01-24 18:56:52,380: INFO: common: crested directory at: artifacts]
+[2025-01-24 18:56:52,391: INFO: common: crested directory at: artifacts\data_transformation]
+[2025-01-24 18:57:11,702: INFO: main:  Stage Name: Data Transformation  <<<<<<<<<< completed successfully >>>>>>>>>>]

@@ -2,10 +2,10 @@ import os
 import sys
 import logging 
 
-logging_str="[%(asctime)s: %(levelname)s: %(modules)s: %(message)s]"
+logging_str="[%(asctime)s: %(levelname)s: %(module)s: %(message)s]"
 
 log_dir="logs"
-log_files_path=os.join.path(log_dir,"continuous_logs.log")
+log_files_path=os.path.join(log_dir,"continuous_logs.log")
 
 os.makedirs(log_dir, exist_ok=True)
 
@@ -19,4 +19,4 @@ logging.basicConfig(
     ]
 )
 
-logger=logging.getlogger("summarizerlogger")
+logger=logging.getLogger("summarizerlogger")
